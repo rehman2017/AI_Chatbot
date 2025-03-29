@@ -33,7 +33,7 @@ responses = {
     "hello": ["Hi there! How can I help you?", "Hello! Hope you're having a great day! 😊"],
     "hi": ["Hi there! How can I help you?", "Hello! Hope you're having a great day! 😊"],
     "what's your name": ["I'm AI Chatbot, your friendly assistant! 🤖"],
-    "who created you": ["I was created by Engr Sir Abdul Rehman Ansari! He is A full-stack developer. 👨‍💻"],
+    "who created you": ["I was created by Engr Sir Abdul Rehman Ansari! He is a full-stack developer. 👨‍💻"],
     "tell me a joke": ["Why don’t scientists trust atoms? Because they make up everything! 😂", 
                         "Why did the scarecrow win an award? Because he was outstanding in his field! 🌾😆"],
     "goodbye": ["Bye! Have a great day! 😊", "Goodbye! See you next time! 👋"],
@@ -103,3 +103,4 @@ st.write("\n".join(st.session_state.chat_memory))
 if st.button("Clear Chat History"):
     st.session_state.chat_memory = []
     st.write("Chat history cleared!")
+
